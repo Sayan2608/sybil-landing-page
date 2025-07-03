@@ -6,86 +6,98 @@
   <title>Sybil Wallet Checker</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
     }
     header {
       background: #4CAF50;
       color: white;
-      padding: 2em 0;
+      padding: 40px 20px;
+      text-align: center;
     }
     header h1 {
       margin: 0;
       font-size: 2.5em;
     }
-    section {
-      max-width: 800px;
-      margin: 2em auto;
-      padding: 1em;
-      background: white;
-      border-radius: 8px;
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
-    .cta-button {
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta a {
       display: inline-block;
-      padding: 1em 2em;
-      margin-top: 1em;
       background: #4CAF50;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
+      padding: 15px 30px;
+      border-radius: 6px;
+      font-size: 1.2em;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     footer {
-      margin-top: 2em;
-      padding: 1em;
+      text-align: center;
+      padding: 20px;
       font-size: 0.9em;
-      color: gray;
+      color: #777;
     }
-    .social-links a {
+    .social a {
       margin: 0 10px;
       color: #4CAF50;
       text-decoration: none;
-      font-weight: bold;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Sybil Wallet Checker</h1>
+    <p>Analyze Ethereum wallets for Sybil behavior and risk scoring.</p>
+  </header>
 
-<header>
-  <h1>🧠 Sybil Wallet Checker</h1>
-  <p>Detect Sybil wallets in Ethereum instantly with AI</p>
-</header>
+  <div class="container">
+    <div class="cta">
+      <a href="https://sayan2608-sybil-detection-app-xxxxx.streamlit.app" target="_blank">Launch App</a>
+    </div>
 
-<section>
-  <h2>Why Use This Tool?</h2>
-  <p>
-    Analyze Ethereum wallet transactions, detect Sybil risk, view gas and transfer metrics—all in a clean interface.
-  </p>
-  <a class="cta-button" href="https://sybil-detection-app.streamlit.app" target="_blank">Launch the App 🚀</a>
-</section>
-
-<section>
-  <h2>Features</h2>
-  <ul style="text-align: left; display: inline-block;">
-    <li>📊 Transaction Metrics and Charts</li>
-    <li>🔎 Machine Learning Sybil Detection</li>
-    <li>💰 ETH Balance Viewer</li>
-    <li>⛽ Gas Usage Analysis</li>
-    <li>📋 Recent Transaction Details</li>
-  </ul>
-</section>
-
-<footer>
-  <div class="social-links">
-    <a href="mailto:sayanrawl7@email.com" target="_blank">💬 Contact</a> |
-    <a href="https://twitter.com/RawlSayan58006" target="_blank">🐦 Twitter</a>
+    <section class="features">
+      <div class="feature">
+        <h3>⚡ Instant Analysis</h3>
+        <p>Enter any Ethereum wallet address and get instant Sybil risk analysis.</p>
+      </div>
+      <div class="feature">
+        <h3>🔒 Secure & Private</h3>
+        <p>No wallet connection required—analysis is fully off-chain and anonymous.</p>
+      </div>
+      <div class="feature">
+        <h3>💼 For Communities & DAOs</h3>
+        <p>Protect your protocols and airdrops from Sybil attacks.</p>
+      </div>
+    </section>
   </div>
-  <div>© 2025 Sybil Wallet Checker. Built with ❤️ by Sayan Rawl</div>
-</footer>
 
+  <footer>
+    © 2025 Sybil Wallet Checker • Built with ❤️ by Sayan Rawl
+    <div class="social">
+      <a href="mailto:sayanrawl7@email.com">Contact</a> |
+      <a href="https://twitter.com/RawlSayan58006" target="_blank">Twitter</a>
+    </div>
+  </footer>
 </body>
 </html>
