@@ -1,6 +1,6 @@
 # 🪐 Sybil Detection App – Landing Page
 
-This is the official landing page for the **Ethereum Sybil Wallet Checker** – a powerful tool designed to help DAOs, airdrop platforms, and NFT projects detect and prevent Sybil attacks.
+This is the official landing page for the **Ethereum Sybil Wallet Checker** – a powerful tool designed to help DAOs, airdrop platforms, and NFT projects detect and prevent the Sybil attacks.
 
 🚀 Live App: [Sybil Detection App](https://sybil-detection-app-4yrprxrpg5ln6rzpyvh5sy.streamlit.app/)  
 🌌 GitHub (App): [SYBIL-DETECTION-APP](https://github.com/Sayan2608/SYBIL-DETECTION-APP)
