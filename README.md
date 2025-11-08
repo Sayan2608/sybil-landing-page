@@ -39,7 +39,7 @@ This is the official landing page for the **Ethereum Sybil Wallet Checker** – 
 
 ## 👨‍🚀 Want to Collaborate?
 
-If you're a DAO, protocol, or web3 team dealing with Sybil challenges, we’d love to work together!
+If you are a DAO, protocol, or web3 team dealing with Sybil challenges, we’d love to work together!
 
 📧 Contact: sayanrawl.eth@proton.me  
 🐦 Twitter: https://x.com/RawlSayan58006?s=09
