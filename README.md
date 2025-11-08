@@ -7,7 +7,7 @@ This is the official landing page for the **Ethereum Sybil Wallet Checker** – 
 
 ---
 
-## 🌠 Features of the Landing Page
+## 🌠 Features of this Landing Page
 
 - Clean, modern design with space-themed aesthetic
 - Highlights app benefits and features
